@@ -13,11 +13,6 @@ add_action_files(
     PlanningSceneManagerRequest.action
 )
 
-add_message_files(
-  FILES
-    FittingConfig.msg
-)
-
 add_service_files(
   FILES
     Segmentation.srv

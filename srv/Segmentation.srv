@@ -2,7 +2,12 @@
 
 ---
 
+string CONFIG_CYLINDER="cylinder"
+string CONFIG_BOX="box"
+string CONFIG_SPHERE="sphere"
+string CONFIG_ALL="all"
+
 grasping_msgs/Object[] objects           # filled with point cloud segments and support_surface name to use
 grasping_msgs/Object[] support_surfaces  # filled with surfaces (like table) using same names as referred to by objects
-FittingConfig[] config                   # config for each object to fit, empty means default
+string[] config_names                   # config for each object to fit, empty means default
 
